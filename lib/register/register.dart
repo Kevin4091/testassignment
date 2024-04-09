@@ -287,14 +287,6 @@ class _RegisterState extends State<Register> {
                         const SizedBox(
                           height: 20,
                         ),
-                        Text(
-                          "WEBFUN",
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            fontSize: 30,
-                            color: Colors.yellowAccent[400],
-                          ),
-                        ),
                       ],
                     ),
                   ),

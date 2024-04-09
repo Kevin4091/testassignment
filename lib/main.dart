@@ -4,7 +4,13 @@ import 'package:testassignment/register/register.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+      options: const FirebaseOptions(
+          apiKey: "AIzaSyDwxxNsui5rlYTLZnFtAH8_ZnDb8-E3hRE",
+          appId: "1:462246427783:android:b8bf0e8feaeb8f9a0f4c22",
+          messagingSenderId: "",
+          projectId: "role-49580",
+          storageBucket: "role-49580.appspot.com"));
   runApp(MyApp());
 }
 
